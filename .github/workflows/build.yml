@@ -14,14 +14,10 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: ${{ matrix.go-version }}
-      - name: Display version
-        run: go version
       - name: Install dependencies
         run: go install github.com/e-kucheriavyi/gossrng/cmd/gossrng@latest
       - name: Build
         run: gossrng -m export -r ./
-      - name: show
-        run: ls -lha
       - name: setup ssh
         run: |
           echo "${{ secrets.DEPLOY_SSH_KEY }}" > ./.id_rsa && chmod 600 ./.id_rsa
