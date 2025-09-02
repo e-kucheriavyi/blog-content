@@ -24,7 +24,6 @@ jobs:
         run: ls -lha
       - name: setup ssh
         run: |
-          mkdir -p .ssh
-          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ./.id_rsa && chmod 600 ./.id_rsa
       - name: deploy
-        run: scp -i ~/.ssh/id_rsa -r ./dist/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/kucheriavyi
+        run: scp -i ./.id_rsa -r ./dist/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/kucheriavyi
