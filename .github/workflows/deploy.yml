@@ -17,8 +17,9 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
       - name: Install dependencies
-        run: go clean -modcache
-        run: go install github.com/e-kucheriavyi/gossrng/cmd/gossrng@v0.1.1
+        run: |
+          go clean -modcache
+          go install github.com/e-kucheriavyi/gossrng/cmd/gossrng@v0.1.1
       - name: Build
         run: gossrng -m export -r ./
       - name: setup ssh
