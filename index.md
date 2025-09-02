@@ -25,6 +25,7 @@ date: 2025-09-01
 - Фреймворк [Larana](https://github.com/laranatech).
 - Библиотека [Chartography](https://www.npmjs.com/package/@laranatech/chartography).
 - Организация дринкапа [Moscow DrinkUp](https://t.me/beerjs_moscow_drinkup) (ex. BeerJS Moscow DrinkUp).
+- Двидок для статических сайтов [gossrng](https://github.com/e-kucheriavyi/gossrng).
 
 ## Вклад в opensource
 
