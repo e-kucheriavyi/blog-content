@@ -70,6 +70,13 @@ a:hover {
 	padding-top: 5rem;
 }
 
+.footer-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
 pre:has(> code) {
 	background-color: var(--bg-light);
 	padding: 1rem;
