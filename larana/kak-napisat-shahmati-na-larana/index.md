@@ -73,17 +73,17 @@ for (let i = 0; i < 8; i ++) {
 Мы сократим количество команд, если чутка изменим алгоритм — укажем цвет, разметим все клетки этого цвета, а потом закрасим:
 
 ```ts
-queue.command.setCtx({ fillStyle: LIGHT_CELL_COLOR })
+q.command.setCtx({ fillStyle: LIGHT_CELL_COLOR })
 for (...) {
-	queue.command.rect(getRectBox(...))
+	q.command.rect(getRectBox(...))
 }
-queue.command.fill()
+q.command.fill()
 
-queue.command.setCtx({ fillStyle: DARK_CELL_COLOR })
+q.command.setCtx({ fillStyle: DARK_CELL_COLOR })
 for (...) {
-	queue.command.rect(getRectBox(...))
+	q.command.rect(getRectBox(...))
 }
-queue.command.fill()
+q.command.fill()
 ```
 
 С таким подходом мы сократили количество команд почти в 3 раза: `(32 + 2) × 2 = 68`. Можем ли мы придумать что-то ещё более эффективное?
@@ -94,23 +94,23 @@ queue.command.fill()
 
 ```ts
 // Рисуем фон
-queue.command.setCtx({ fillStyle: LIGHT_CELL_COLOR })
-queue.command.rect({ x: 0, y: 0, w: WIDTH, h: HEIGHT })
-queue.command.fill()
+q.command.setCtx({ fillStyle: LIGHT_CELL_COLOR })
+q.command.rect({ x: 0, y: 0, w: WIDTH, h: HEIGHT })
+q.command.fill()
 
 // Рисуем всё остальное
-queue.command.setCtx({ fillStyle: DARK_CELL_COLOR })
-queue.command.beginPath()
+q.command.setCtx({ fillStyle: DARK_CELL_COLOR })
+q.command.beginPath()
 
 for (let i = 0; i < 8; i++) {
 	for (let j = 0; j < 8; j++) {
 		if (isLight(i, j)) {
 			continue
 		}
-		queue.command.rect(getRectBox(i, j))
+		q.command.rect(getRectBox(i, j))
 	}
 }
-queue.command.fill()
+q.command.fill()
 ```
 
 Итого: `3 + 3 + 32 = 38`. Сокращение почти в 2 раза по сравнению предыдущим способом.
