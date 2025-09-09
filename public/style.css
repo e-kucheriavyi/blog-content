@@ -115,3 +115,15 @@ blockquote {
 .main video {
 	max-width: 100%;
 }
+
+.main table {
+	width: 100%;
+}
+
+.main table, .main tr, .main td {
+	border: 1px solid var(--border);
+}
+
+.main td {
+	padding: 0.5rem;
+}
