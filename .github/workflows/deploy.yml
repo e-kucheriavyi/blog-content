@@ -19,9 +19,9 @@ jobs:
       - name: Install dependencies
         run: |
           go clean -modcache
-          go install github.com/e-kucheriavyi/gossrng/cmd/gossrng@v0.1.1
+          go install github.com/laranatech/electrostatic/cmd/electrostatic@v0.1.2
       - name: Build
-        run: gossrng -m export -r ./
+        run: electrostatic -m export -r ./
       - name: setup ssh
         run: |
           echo "${{ secrets.DEPLOY_SSH_KEY }}" > ./.id_rsa && chmod 600 ./.id_rsa
