@@ -1,12 +1,12 @@
 ---
 title: Как я настроил CI/CD для блога на Go
-keywords: ci/cd, continues integration, continues delivery, deploy, github, github actions, pipelines, go, golang, ssr, ssg, блог, веб, веб-разработка, SEO
+keywords: ci/cd, continues integration, continues delivery, deploy, github, github actions, pipelines, go, golang, ssr, ssg, блог, веб, веб-разработка, SEO, electrostatic
 description: Настраиваем деплой для статического блога
 ---
 
 # Как я настроил CI/CD для блога на Go
 
-В прошлой статье я писал о своём движке для статических блогов [gossrng](/go/kak-ya-napisal-blog-na-go). А теперь настало время настроить автоматизацию деплоя готового сайта на сервер.
+В прошлой статье я писал о своём движке для статических блогов [electrostatic](/go/kak-ya-napisal-blog-na-go). А теперь настало время настроить автоматизацию деплоя готового сайта на сервер.
 
 ## Переписывание движка
 
@@ -20,9 +20,9 @@ description: Настраиваем деплой для статического
 Также была добавлена фича инициализации проекта. Теперь для сборки проекта нужно всего три команды:
 
 ```sh
-$ go install github.com/e-kucheriavyi/gossrng/cmd/gossrng@latest # устанавливаем утилиту
-$ gossrng -m init -r ./content # инициализируем шаблонный проект
-$ gossrng -m export -r ./content # экспортируем проект в папку ./dist
+$ go install github.com/laranatech/electrostatic/cmd/electrostatic@latest # устанавливаем утилиту
+$ electrostatic -m init -r ./content # инициализируем шаблонный проект
+$ electrostatic -m export -r ./content # экспортируем проект в папку ./dist
 ```
 
 Вот так просто у нас на руках появляется директория, которую можно закинуть на сервер и радоваться.
@@ -162,9 +162,9 @@ jobs:
         with:
           go-version: ${{ matrix.go-version }}
       - name: Install dependencies
-        run: go install github.com/e-kucheriavyi/gossrng/cmd/gossrng@latest
+        run: go install github.com/laranatech/electrostatic/cmd/electrostatic@latest
       - name: Build
-        run: gossrng -m export -r ./
+        run: electrostatic -m export -r ./
       - name: setup ssh
         run: |
           echo "${{ secrets.SSH_KEY }}" > ./.id_rsa && chmod 600 ./.id_rsa
@@ -231,9 +231,9 @@ steps:
 
 ```yml
 - name: Install dependencies
-  run: go install github.com/e-kucheriavyi/gossrng/cmd/gossrng@latest
+  run: go install github.com/laranatech/electrostatic/cmd/electrostatic@latest
 - name: Build
-  run: gossrng -m export -r ./
+  run: electrostatic -m export -r ./
 ```
 
 У шага с SSH есть несколько нюансов:
@@ -254,6 +254,6 @@ steps:
 
 ## Заключние
 
-Может показаться, что эта настройка какая-то муторная. На самом же деле всё довольно просто. Особенно, если разобраться. Всё-таки, для деплоя блога на [gossrng](https://github.com/e-kucheriavyi/gossrng) никаких сложных действий не требуется. Но если делать это каждый раз руками, то уйдёт уйма времени и рано или поздно где-то будет допущена ошибка.
+Может показаться, что эта настройка какая-то муторная. На самом же деле всё довольно просто. Особенно, если разобраться. Всё-таки, для деплоя блога на [electrostatic](https://github.com/laranatech/electrostatic) никаких сложных действий не требуется. Но если делать это каждый раз руками, то уйдёт уйма времени и рано или поздно где-то будет допущена ошибка.
 
 Это не всё, что можно знать о CI/CD, потому что есть ещё куча разных приколов. Например, можно запускать разные тесты, когда создаётся pull request. Или присылать уведомления через чат-бота. В общем, можно реализовать почти всё, до чего у вас хватит фантазии.

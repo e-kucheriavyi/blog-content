@@ -323,7 +323,7 @@ location / {
 
 Со временем я это сделаю, но старт уже неплохой.
 
-> Репозиторий проекта: https://github.com/e-kucheriavyi/gossrng
+> Репозиторий проекта: https://github.com/laranatech/electrostatic
 
 > Подписывайтесь на мою телегу: [@frontend_director](https://t.me/+ey0PwdYMaKU0ZDhi)
 
