@@ -26,6 +26,7 @@ date: 2025-09-01
 - Библиотека [Chartography](https://www.npmjs.com/package/@laranatech/chartography).
 - Организация дринкапа [Moscow DrinkUp](https://t.me/beerjs_moscow_drinkup) (ex. BeerJS Moscow DrinkUp).
 - Движок для статических сайтов [electrostatic](https://github.com/laranatech/electrostatic).
+- Очередь задач [@laranatech/mq](https://github.com/laranatech/mq).
 
 ## Вклад в opensource
 
@@ -35,6 +36,7 @@ date: 2025-09-01
 
 ## Выступления / СМИ
 
+0. Доклад «[Svelte — Vue курильщика](https://holyjs.ru/talks/b50047e3d2e14b039fb0a8590ddf3d04/)» на HolyJS 2025 Autumn
 0. Доклад «[VanilaJS в 2025](https://dc.ufacoder.com/#program#!/tab/1254949461-2)» на UFADEVCONF 2025.
 0. Доклад «[Уменьшаем бандл](https://2025.ulcamp.ru/program)» на ULCAMP'25.
 0. Доклад «[Развиваем технобренд ~~не~~ привлекая внимания санитаров](https://t.me/moscow_drinkup/103)» на Moscow Drinkup #7.
