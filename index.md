@@ -28,6 +28,11 @@ date: 2025-09-01
 - Движок для статических сайтов [electrostatic](https://github.com/laranatech/electrostatic).
 - Очередь задач [@laranatech/mq](https://github.com/laranatech/mq).
 
+## Игры
+
+- [Five Letters](https://e-kucheriavyi.github.io/five-letters/)
+- [Silly Fishing](https://e-kucheriavyi.github.io/silly-fishing/)
+
 ## Вклад в opensource
 
 1. Дополнение [Доки](https://doka.guide/people/e-kucheriavyi/).
