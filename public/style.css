@@ -1,24 +1,9 @@
 :root {
-	/* hsl (fallback color) */
-	--bg-dark: hsl(336 0% 1%);
-	--bg: hsl(330 0% 4%);
-	--bg-light: hsl(0 0% 9%);
-	--text: hsl(0 0% 95%);
-	--text-muted: hsl(300 0% 69%);
-	--highlight: hsl(330 0% 39%);
-	--border: hsl(0 0% 28%);
-	--border-muted: hsl(300 0% 18%);
-	--primary: hsl(120, 48%, 45%);
-	/* oklch */
-	--bg-dark: oklch(0.1 0 160);
-	--bg: oklch(0.15 0 160);
-	--bg-light: oklch(0.2 0 160);
-	--text: oklch(0.96 0 160);
-	--text-muted: oklch(0.76 0 160);
-	--highlight: oklch(0.5 0 160);
-	--border: oklch(0.4 0 160);
-	--border-muted: oklch(0.3 0 160);
-	--primary: oklch(65.215% 0.17926 143.195);
+	--bg: #0E1116;
+	--bg-light: #151A21;
+	--text: #E6EAF0;
+	--border: #484848;
+	--primary: #3caa3c;
 }
 
 body, html {
@@ -29,6 +14,7 @@ body, html {
 	background-color: var(--bg);
 	color: var(--text);
 	font-size: 16px;
+	font-size: 1.1rem;
 	box-sizing: border-box;
 	font-family: monospace;
 }
@@ -127,3 +113,8 @@ blockquote {
 .main td {
 	padding: 0.5rem;
 }
+
+summary {
+	font-size: 1.5rem;
+}
+
