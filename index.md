@@ -9,12 +9,12 @@ date: 2025-09-01
 
 # Евгений Кучерявый
 
-## Директор фронтенда, изобретатель, суперзлодей
+## Суперзлодей, изобретатель, директор фронтенда
 
 - Телеграмм: [@e_kucheriavyi](https://t.me/e_kucheriavyi)
 - Почта: [e@vgenii.ru](mailto:e@vgenii.ru)
 - GitHub: [@e-kucheriavyi](https://github.com/e-kucheriavyi)
-- YouTube: [@frontend_director](https://www.youtube.com/@frontend_director)
+- YouTube: [@e-kucheriavyi](https://www.youtube.com/@e-kucheriavyi)
 - Хабр: [@kucheriavyi](https://habr.com/ru/users/kucheriavyi/)
 - Boosty: [@kucheriavyi](https://boosty.to/kucheriavyi)
 - Patreon: [@kucheriavyi](https://patreon.com/kucheriavyi)
