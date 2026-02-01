@@ -41,6 +41,7 @@ date: 2025-09-01
 
 ## Выступления / СМИ
 
+0. Доклад «Публичные выступления для айтишников» в закрытом сообществе.
 0. Доклад «[Svelte — Vue курильщика](https://holyjs.ru/talks/b50047e3d2e14b039fb0a8590ddf3d04/)» на HolyJS 2025 Autumn
 0. Доклад «[VanilaJS в 2025](https://dc.ufacoder.com/#program#!/tab/1254949461-2)» на UFADEVCONF 2025.
 0. Доклад «[Уменьшаем бандл](https://2025.ulcamp.ru/program)» на ULCAMP'25.
@@ -64,3 +65,4 @@ date: 2025-09-01
 0. [Блог в Скиллбокс Медиа](https://skillbox.ru/media/authors/evgenij-kucheryavyj/).
 0. [Цитирование в РБК](https://trends.rbc.ru/trends/education/5d6bdbd99a79479d59272f35).
 0. [Блог в Текстерра](https://texterra.ru/blog/author_evgeniy-kucheryavyy).
+
