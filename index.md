@@ -21,7 +21,7 @@ date: 2026-02-01
 
 ## Проекты
 
-- Телеграмм-канал «[Директор фронтенда](https://t.me/frontend_director)».
+- Телеграмм-канал «[Директор фронтенда](https://t.me/ekucheriavyi)».
 - Фреймворк [Larana](https://github.com/laranatech).
 - Библиотека [Chartography](https://www.npmjs.com/package/@laranatech/chartography).
 - Организация дринкапа [Moscow DrinkUp](https://t.me/beerjs_moscow_drinkup) (ex. BeerJS Moscow DrinkUp).
