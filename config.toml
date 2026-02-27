@@ -1,8 +1,21 @@
+
+default_template = "/_templates/index.html"
+
 [catalogs]
-entries = [
-	{ title = "Статьи", path = "/articles", directory = "/" },
-	{ title = "Посты", path = "/posts", directory = "/posts" },
-]
+default_card_template = "/_templates/link.html"
+
+[[catalogs.entries]]
+title = "Статьи"
+path = "/articles"
+directory = "/"
+card_template = "/_templates/article-card.html"
+
+[[catalogs.entries]]
+title = "Посты"
+path = "/posts"
+directory = "/posts"
+card_template = "/_templates/article-card.html"
+
 
 [meta]
 title_template = "%title% | Блог Жени Кучерявого"
@@ -12,3 +25,6 @@ fallback_title = "Неопознанная страница"
 fallback_description = "Неопознанная страница"
 fallback_keywords = "Неопознанная страница"
 
+[laziness]
+lazy_images = true
+lazy_first_image = false

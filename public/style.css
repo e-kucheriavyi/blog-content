@@ -118,3 +118,21 @@ summary {
 	font-size: 1.5rem;
 }
 
+.article-card {
+	display: block;
+	background: var(--bg-light);
+	border-radius: 0.5rem;
+	padding: 0.5rem 2rem;
+	margin-top: 0.5rem;
+	text-decoration: none;
+	border: 1px solid transparent;
+}
+
+.article-card:hover {
+	border: 1px solid var(--border);
+}
+
+.article-card p {
+	color: var(--text);
+}
+
