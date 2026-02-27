@@ -1,0 +1,14 @@
+[catalogs]
+entries = [
+	{ title = "Статьи", path = "/articles", directory = "/" },
+	{ title = "Посты", path = "/posts", directory = "/posts" },
+]
+
+[meta]
+title_template = "%title% | Блог Жени Кучерявого"
+description_template = "%description%"
+keywords_template = "%keywords%, Женя Кучерявый, Евгений Кучерявый, Директор фронтенда"
+fallback_title = "Неопознанная страница"
+fallback_description = "Неопознанная страница"
+fallback_keywords = "Неопознанная страница"
+
