@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           go clean -modcache
-          go install github.com/laranatech/electrostatic@v0.1.3
+          go install larana.tech/go/electrostatic@v0.1.4
       - name: Build
         run: electrostatic -m export -r ./
       - name: setup ssh
