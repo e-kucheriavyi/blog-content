@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           go clean -modcache
-          go install larana.tech/go/electrostatic@v0.2.1
+          go install larana.tech/go/electrostatic@v0.2.2
       - name: Build
         run: |
           electrostatic --version
