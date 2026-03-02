@@ -21,8 +21,9 @@ jobs:
           go clean -modcache
           go install larana.tech/go/electrostatic@v0.2.1
       - name: Build
-        run: electrostatic --version
-        run: electrostatic -m export -r ./
+        run: |
+          electrostatic --version
+          electrostatic -m export -r ./
       - name: setup ssh
         run: |
           echo "${{ secrets.DEPLOY_SSH_KEY }}" > ./.id_rsa && chmod 600 ./.id_rsa
