@@ -2,6 +2,7 @@
 title: Подсветка синтаксиса кода в Go
 description: Добавляем в блог подстветку синтаксиса
 keywords: syntax, syntax highlighting, go, golang, ssr, ssg, блог, веб, веб-разработка, SEO
+date: 2025-09-03
 ---
 
 # Подсветка синтаксиса в Go

@@ -3,10 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>%title%</title>
+	{{.meta}}
 	<link rel="stylesheet" href="/style.css">
-	<meta name="description" content="%description%">
-	<meta name="keywords" content="%keywords%">
 	<link rel="stylesheet" href="/monokai.css">
 </head>
 <body>
@@ -21,7 +19,7 @@
 			</nav>
 		</header>
 		<main class="main">
-			%CONTENT%
+			{{.content}}
 		</main>
 		<footer class="footer">
 			<div class="footer-row">

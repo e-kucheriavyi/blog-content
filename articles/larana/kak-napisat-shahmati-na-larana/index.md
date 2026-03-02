@@ -2,6 +2,7 @@
 title: Как написать шахматную доску на larana
 keywords: larana, ssr, lareq, js, javascript, ssg, блог, веб, веб-разработка, SEO
 description: Пишем шахматную доску на larana. Подходы и подводные камни
+date: 2025-09-10
 ---
 
 # Как написать шахматную доску на Larana

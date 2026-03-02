@@ -1,13 +1,16 @@
-
 default_template = "/_templates/index.html"
+hotreload = false
+debug = false
+
 
 [catalogs]
+default_catalog_template = "/_templates/index.html"
 default_card_template = "/_templates/link.html"
 
 [[catalogs.entries]]
 title = "Статьи"
 path = "/articles"
-directory = "/"
+directory = "/articles"
 card_template = "/_templates/article-card.html"
 
 [[catalogs.entries]]
@@ -18,13 +21,33 @@ card_template = "/_templates/article-card.html"
 
 
 [meta]
-title_template = "%title% | Блог Жени Кучерявого"
-description_template = "%description%"
-keywords_template = "%keywords%, Женя Кучерявый, Евгений Кучерявый, Директор фронтенда"
-fallback_title = "Неопознанная страница"
-fallback_description = "Неопознанная страница"
-fallback_keywords = "Неопознанная страница"
 
-[laziness]
-lazy_images = true
-lazy_first_image = false
+[[meta.tags]]
+key = "title"
+template = "%s | Блог Жени Кучерявого"
+fallback = "No title"
+tag = "title"
+
+[[meta.tags]]
+key = "keywords"
+template = "%s, electrostatic"
+fallback = "No keywords"
+tag = "meta"
+
+[[meta.tags]]
+key = "description"
+template = "%s"
+fallback = "No description"
+tag = "meta"
+
+[[meta.tags]]
+key = "date"
+template = "%s"
+fallback = ""
+tag = "meta"
+
+
+[lazyness]
+images = true
+first_image = false
+

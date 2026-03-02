@@ -2,6 +2,7 @@
 title: Как я настроил CI/CD для блога на Go
 keywords: ci/cd, continues integration, continues delivery, deploy, github, github actions, pipelines, go, golang, ssr, ssg, блог, веб, веб-разработка, SEO, electrostatic
 description: Настраиваем деплой для статического блога
+date: 2025-09-02
 ---
 
 # Как я настроил CI/CD для блога на Go
