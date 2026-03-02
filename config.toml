@@ -1,6 +1,6 @@
 default_template = "/_templates/index.html"
 hotreload = false
-debug = false
+debug = true
 
 
 [catalogs]
