@@ -19,11 +19,11 @@ jobs:
       - name: Install dependencies
         run: |
           go clean -modcache
-          go install larana.tech/go/electrostatic@v0.2.3
+          go install larana.tech/go/electrostatic@v0.2.4
       - name: Build
         run: |
           electrostatic --version
-          electrostatic -m export -r ./
+          electrostatic -m export -r ./ -a
       - name: setup ssh
         run: |
           echo "${{ secrets.DEPLOY_SSH_KEY }}" > ./.id_rsa && chmod 600 ./.id_rsa
