@@ -17,7 +17,7 @@ date: 2026-04-27
 - [lit.js](https://lit.dev/)
 - [fioco.js](https://github.com/e-kucheriavyi/fioco)
 - [Веб-компоненты](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
-- [MND переписан на веб-компонены](https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/)
+- [MDN переписан на веб-компонены](https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/)
 - [Declarative shadow DOM](https://web.dev/articles/declarative-shadow-dom)
 - [Elena](https://arielsalminen.com/2026/progressive-web-components/)
 
