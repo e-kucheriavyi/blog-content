@@ -27,6 +27,7 @@ date: 2026-02-01
 - Организация дринкапа [Moscow DrinkUp](https://t.me/beerjs_moscow_drinkup) (ex. BeerJS Moscow DrinkUp).
 - Движок для статических сайтов [electrostatic](https://github.com/laranatech/electrostatic).
 - Очередь задач [@laranatech/mq](https://github.com/laranatech/mq).
+- [fioco.js](https://github.com/e-kucheriavyi/fioco).
 
 ## Игры
 
@@ -41,6 +42,8 @@ date: 2026-02-01
 
 ## Выступления / СМИ
 
+0. Доклад «[Послушный дом и JS](https://holyjs.ru/talks/2597a55b03cb4209b9445fa2e6806925/)» на HolyJS 2026 Spring.
+0. Доклад «[Веб-компоненты](https://moscowjs.org/talks/veb-komponenty-plohaya-realizaciya-horoshej-idei/)» на MoscowJS №70.
 0. Доклад «Публичные выступления для айтишников» в закрытом сообществе.
 0. Доклад «[Svelte — Vue курильщика](https://holyjs.ru/talks/b50047e3d2e14b039fb0a8590ddf3d04/)» на HolyJS 2025 Autumn
 0. Доклад «[VanilaJS в 2025](https://dc.ufacoder.com/#program#!/tab/1254949461-2)» на UFADEVCONF 2025.
