@@ -13,6 +13,8 @@ date: 2026-05-12
 Презентация:
 - [Полная версия](https://hjs2026sp.kucheriavyi.ru) (веб)
 - [Исходный код](https://github.com/e-kucheriavyi/holy-spring-2026-home)
+- [Активность на холи](https://holyjs.ru/talks/2597a55b03cb4209b9445fa2e6806925/)
+(пока платно, в публичном доступе в течение полугода)
 
 ## Источники
 
