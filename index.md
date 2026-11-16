@@ -90,9 +90,12 @@ date: 2026-02-01
 
 ## Выступления / СМИ
 
+0. Доклад «Я почти год сидел на шее у жены и вот что понял» на открытом микрофоне.
+0. Воркшоп «[Мультиплеер на JS](https://holyjs.ru/talks/20010781-multiplayer-on-js/)» на HolyJS 2026 Autumn.
 0. Доклад «[Послушный дом и JS](https://holyjs.ru/talks/2597a55b03cb4209b9445fa2e6806925/)» на HolyJS 2026 Spring.
 0. Доклад «[Веб-компоненты](https://moscowjs.org/talks/veb-komponenty-plohaya-realizaciya-horoshej-idei/)» на MoscowJS №70.
 0. Доклад «Публичные выступления для айтишников» в закрытом сообществе.
+0. Доклад «[Нахуй абстракции](https://www.youtube.com/watch?v=f-Bu26FydUo)» на открытом микрофоне.
 0. Доклад «[Svelte — Vue курильщика](https://holyjs.ru/talks/b50047e3d2e14b039fb0a8590ddf3d04/)» на HolyJS 2025 Autumn
 0. Доклад «[VanilaJS в 2025](https://dc.ufacoder.com/#program#!/tab/1254949461-2)» на UFADEVCONF 2025.
 0. Доклад «[Уменьшаем бандл](https://2025.ulcamp.ru/program)» на ULCAMP'25.
